@@ -21,7 +21,7 @@ int main(){
 		cout << "---------->Error: No Image Found" << endl;
 		return 0;
 	}
-	tracker.initTrack(image1,4000);
+	tracker.initTrack(image1,2000);
 	}
 
 	Mat nextImage = imread("AntCenter2.jpg",CV_LOAD_IMAGE_GRAYSCALE);

@@ -22,8 +22,6 @@ public:
 	void trackFeatures(cv::Mat &);
 
 private:
-	double minDist;
-	double maxDist;
 
 	bool haveTrack;
 	bool pastImageExists;
